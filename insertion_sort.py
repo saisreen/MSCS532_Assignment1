@@ -11,3 +11,8 @@ def insertion_sort_descending(arr):
         arr[j + 1] = key
 
     return arr
+
+numbers = [12, 5, 8, 20, 3, 15]
+
+print("Original Array:", numbers)
+print("Sorted Array:", insertion_sort_descending(numbers))
